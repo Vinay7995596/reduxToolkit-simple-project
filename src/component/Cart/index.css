@@ -1,0 +1,18 @@
+.images-sizes {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.each-container {
+    border: 1px solid #000;
+    height: 200px;
+    overflow: hidden;
+}
+
+.main-products-to-display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+}
